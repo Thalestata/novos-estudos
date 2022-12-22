@@ -7,25 +7,35 @@
     <title>Visto</title>
 </head>
 <body>
-    <h1>Sistema de país</h1>
-    <input type="text" name="pais" id="pais">
-    <input type="button" value="Verificar" onclick="verificar()">
-    <div id="res"></div>
-    <script>
-       
-        function verificar(){
-            var pais = window.document.querySelector('input#pais')
-            var res = window.document.querySelector('div#res')
-           
-            res.innerHTML = ` Seu país é ${pais}`
-            if(pais = Brasil ){
-                res.innerHTML = `Voce é Brasileiro`
-            } else {
-                res.innerHTML = ' voce é Estrangeiro'
-            }
-            
+  <h1>Sistema de país</h1>
 
-        }
-    </script>
+  <!-- Campo de entrada para o usuário digitar o país -->
+  <input type="text" name="pais" id="pais">
+  
+  <!-- Botão para iniciar a verificação -->
+  <input type="button" value="Verificar" onclick="verificar()">
+  
+  <!-- Div para exibir o resultado da verificação -->
+  <div id="res"></div>
+  
+  <script>
+    // Obtém o valor do campo de entrada do usuário
+    var pais = document.getElementById('pais',value);
+  
+    res.innerHTML(`Vivendo em ${pais}`);
+    if (pais == 'Brasil') {
+      res.innerHTML('Brasileiro!');
+      // Exibe o resultado na div com id "res"
+      document.getElementById('pais').
+      innerHTML = 'Brasileiro!';
+    } else {
+      console.log('Estrangeiro');
+      // Exibe o resultado na div com id "res"
+      document.getElementById('pais').
+      innerHTML = 'Estrangeiro';
+    }
+  </script>
+  
+      
 </body>
 </html>
