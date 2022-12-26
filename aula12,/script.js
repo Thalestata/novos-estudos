@@ -9,6 +9,7 @@ function carregar(){
     // bom dia
     img.src = 'fotodamanha.png'
     document.body.style.background = '#e2cd9f'
+    
    }else if (hora >= 12 && hora <= 18 ) {
     // boa tarde
     img.src = 'fotodatarde.jpg'
