@@ -18,18 +18,13 @@ section{
 }
 div{
     text-align: center;
-   
+
 }
 div#res{
     text-align: center;
-    width: auto;
     
 }
-div imagem{
-    text-align: center;
-    width: 300px;
-    height: 300px;
-}
+
 footer{
     color: aliceblue;
     text-align: center;

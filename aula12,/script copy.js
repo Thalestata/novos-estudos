@@ -10,14 +10,16 @@ function verificar() {
        var idade = ano - Number(fano.value)
        var genero = ''
        var img = document.createElement('img')
-       img.setAttribute( 'id' , 'foto')
+       
+       img.setAttribute( 'id' , 'foto','width', '250')
        if (fsex[0].checked) {
            genero = 'Homem'
            if (idade >=0 && idade < 10) {
             // criança
            } else if (idade < 21) {
             // jovem
-            img.setAttribute('src' , 'homen jovem.png',)
+            img.setAttribute('src' ,  'homen jovem p.png')
+            img.setAttribute('width', '250')
            } else if (idade < 50 ) {
             // adulto
             img.setAttribute('src' , 'homen adulto.png')
