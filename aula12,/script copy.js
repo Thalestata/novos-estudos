@@ -19,7 +19,7 @@ function verificar() {
            } else if (idade < 21) {
             // jovem
             img.setAttribute('src' ,  'jovem.png')
-            img.setAttribute('width', '250')
+            // img.setAttribute('width', '250')
            } else if (idade < 50 ) {
             // adulto
             img.setAttribute('src' , 'hadulto.png')
