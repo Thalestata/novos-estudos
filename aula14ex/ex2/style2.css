@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+    background-color: aquamarine;
+    font: normal 15pt Arial;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.631);
+}
+div{
+    text-align:  left;
+    padding: 0px;
+    
+   
+}
+div#res{
+    padding: 5px;
+    margin: 5px;
+}
+
+div imagem{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+
+}
